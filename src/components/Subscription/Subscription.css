@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .sub {
-    background: url("../../../public/Back\ Ground.png");
+    background: url("../../assets/Back_Ground.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 90px;

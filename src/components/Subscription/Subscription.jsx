@@ -1,10 +1,10 @@
 import { useState } from "react";
-import bookLogo from "../../../public/Icon Book.png";
-import clockLogo from "../../../public/Icon Clock 2.png";
-import liveLogo from "../../../public/liveIcon.png";
-import degLogo from "../../../public/Icon Deg.png";
-import adsLogo from "../../../public/Icon Ads.png";
-import razorpayLogo from "../../../public/Razorpay Icon.png";
+import bookLogo from "../../assets/Icon_Book.png";
+import clockLogo from "../../assets/Icon_Clock 2.png";
+import liveLogo from "../../assets/liveIcon.png";
+import degLogo from "../../assets/Icon_Deg.png";
+import adsLogo from "../../assets/Icon_Ads.png";
+import razorpayLogo from "../../assets/Razorpay_Icon.png";
 import "./Subscription.css";
 
 function Subscription() {
