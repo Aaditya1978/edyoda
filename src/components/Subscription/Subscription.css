@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.sub {
+    background: url("../../../public/Back\ Ground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info {
+    color: #ffffff;
+    width: 600px;
+
+    .header {
+        color: #ffffff;
+        font-family: 'Raleway';
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 125%;
+        letter-spacing: -0.56px;
+
+        .cross {
+            font-family: 'Roboto';
+            text-decoration: line-through red;
+        }
+
+        .blue {
+            font-family: 'Roboto';
+            color: #0096FF;
+        }
+    }
+
+    .features {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .feature {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 50px;
+
+            .logo {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .logo img {
+                width: 40px;
+            }
+
+            .text {
+                font-family: Roboto;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0.96px;
+
+                .blue {
+                    color: #0096FF;
+                }
+            }
+        }
+    }
+}
+
+.form {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 32px 24px;
+    border-radius: 8px;
+
+    .steps {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+
+        .step {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+
+            .logo {
+                color: #ffffff;
+                font-family: 'Roboto';
+                background-color: #0096FF;
+                border-radius: 50%;
+                padding: 10px 15px;
+            }
+
+            .text {
+                color: #000000;
+                font-family: 'Roboto';
+            }
+        }
+    }
+
+    .header {
+        width: 100%;
+        font-family: 'Roboto';
+        color: #000000;
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .plans {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+
+        .plan {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            border: 2px solid #BEBEBE;
+            border-radius: 5px;
+            padding: 25px 30px;
+            position: relative;
+            gap: 12px;
+
+            .recom {
+                position: absolute;
+                top: 0;
+                left: 36px;
+                border-radius: 0px 0px 4px 4px;
+                background: #47BA68;
+                color: #ffffff;
+                font-size: 12px;
+                padding: 3px 12px;
+                font-family: 'Roboto';
+            }
+
+            .exp {
+                position: absolute;
+                top: 0;
+                left: 36px;
+                border-radius: 0px 0px 4px 4px;
+                background: #F77171;
+                color: #ffffff;
+                font-size: 12px;
+                padding: 3px 12px;
+                font-family: 'Roboto';
+            }
+
+            .radiol {
+                font-family: 'Roboto';
+                font-weight: 600;
+                width: 520px;
+            }
+
+            .end {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+
+                .price {
+                    font-family: 'Roboto';
+                    font-size: 16px;
+                    font-weight: 600;
+
+                    .text {
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                }
+
+                .monthly {
+                    font-family: 'Roboto';
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .blocked {
+            background-color: #E7E7E7;
+        }
+
+        .selected {
+            background-color: #D7EDDD;
+        }
+    }
+
+    .total {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+
+        .fee {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .text {
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            .price {
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
+        .banner {
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 8px;
+            border-color: #DE4313;
+            padding: 20px 25px;
+            background: linear-gradient(135deg, rgba(222, 67, 19, 0.20) 0%, rgba(222, 67, 19, 0.20) 0.75%, rgba(222, 67, 19, 0.20) 2.92%, rgba(222, 68, 20, 0.20) 6.37%, rgba(223, 69, 21, 0.20) 10.97%, rgba(223, 72, 22, 0.20) 16.59%, rgba(224, 75, 24, 0.20) 23.10%, rgba(225, 80, 27, 0.20) 30.37%, rgba(227, 86, 31, 0.20) 38.27%, rgba(229, 94, 36, 0.20) 46.66%, rgba(231, 104, 43, 0.20) 55.41%, rgba(235, 117, 51, 0.20) 64.39%, rgba(238, 132, 60, 0.20) 73.47%, rgba(243, 149, 71, 0.20) 82.52%, rgba(248, 169, 84, 0.20) 91.41%, rgba(254, 193, 99, 0.20) 100%);
+            border: 2px solid #DE4313;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 10px;
+
+                .text1 {
+                    color: #DE4313;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;
+                }
+
+                .text2 {
+                    color: #DE4313;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 120%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+                .ck2 {
+                    width: 30px;
+                }
+            }
+        }
+    }
+
+    .final {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .text {
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .price {
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .cancel {
+            border-radius: 4px;
+            border: 2px solid #F77171;
+            text-align: center;
+            width: 190px;
+            padding: 15px 0px;
+            color: #DE4313;
+            font-family: 'Roboto';
+            background-color: #ffffff;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        .cancel:hover {
+            background-color: #F77171;
+            color: #ffffff;
+        }
+
+        .pay {
+            border-radius: 4px;
+            background: #47BA68;
+            border: 2px solid #47BA68;
+            color: #ffffff;
+            text-align: center;
+            width: 190px;
+            padding: 15px 0px;
+            font-family: 'Roboto';
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        .pay:hover {
+            background-color: #3B8F54;
+        }
+    }
+
+    .razorpay{
+        margin-top: 30px;
+
+        img{
+            width: 200px;
+        }
+    }
+}
+
+input[type="radio"] {
+    appearance: none;
+    border: 1px solid #d3d3d3;
+    width: 80px;
+    height: 30px;
+    content: none;
+    outline: none;
+    margin: 0;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    appearance: none;
+    border: 1px solid #d3d3d3;
+    width: 80px;
+    height: 30px;
+    content: none;
+    outline: none;
+    margin: 0;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked::before {
+    position: absolute;
+    color: white !important;
+    content: "\00A0\2713\00A0" !important;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 23px;
+    background-color: #47BA68;
+    margin: 0;
+    padding: 0;
+}
+
+.blocked>input[type="radio"] {
+    appearance: none;
+    border: 1px solid #d3d3d3;
+    width: 80px;
+    height: 30px;
+    content: none;
+    outline: none;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.blocked>input[type="radio"]:checked {
+    appearance: none;
+    border: 1px solid #d3d3d3;
+    width: 50px;
+    height: 25px;
+    content: none;
+    outline: none;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.blocked>input[type="radio"]:checked::before {
+    position: absolute;
+    color: white !important;
+    content: "" !important;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+    font-weight: bolder;
+    color: #BEBEBE;
+    font-size: 22px;
+    background-color: #E7E7E7;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1230px) {
+
+    .sub{
+        padding: 20px 70px;
+    }
+
+    .info{
+        width: 500px;
+
+        .header{
+            font-size: 35px;
+        }
+    }
+
+    .form{
+        width: 360px;
+
+        .buttons{
+            .cancel{
+                width: 160px;
+            }
+
+            .pay{
+                width: 160px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px){
+    .sub{
+        padding: 20px 50px;
+    }
+
+    .info{
+        width: 400px;
+
+        .header{
+            font-size: 30px;
+        }
+    }
+
+    .form{
+        width: 300px;
+
+        .buttons{
+            .cancel{
+                width: 140px;
+            }
+
+            .pay{
+                width: 140px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 845px){
+    .sub{
+        padding: 20px 30px;
+    }
+
+    .info{
+        width: 300px;
+
+        .header{
+            font-size: 25px;
+        }
+    }
+
+    .form{
+        width: 300px;
+
+        .steps{
+            gap: 170px;
+        }
+
+        .buttons{
+            .cancel{
+                width: 120px;
+            }
+
+            .pay{
+                width: 120px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 730px){
+    .sub{
+        flex-direction: column;
+        padding: 80px 20px;
+        align-items: center;
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .form{
+        width: 250px;
+
+        .steps{
+            gap: 150px;
+        }
+
+        .buttons{
+            .cancel{
+                width: 100px;
+            }
+
+            .pay{
+                width: 100px;
+            }
+        }
+    }
+}

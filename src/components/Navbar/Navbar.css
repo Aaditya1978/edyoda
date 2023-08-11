@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.nav {
+    background-color: #ffffff;
+    padding: 20px 60px;
+    display: flex;
+
+    .logo {
+        margin-right: 70px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .ham{
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+
+        .nav-link {
+            color: #000000;
+            font-family: 'Raleway';
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .nav-link:hover {
+            color: #0096FF;
+        }
+    }
+
+    .nav-end {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 60px;
+
+        .nav-e-item {
+            font-family: 'Raleway';
+            color: #000000;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .nav-e-item button {
+            color: #ffffff;
+            font-family: 'Raleway';
+            text-transform: uppercase;
+            font-weight: 700;
+            border: none;
+            border-radius: 52px;
+            background: linear-gradient(224deg, #0048FF 0%, #0096FF 100%);
+            padding: 10px 30px;
+            cursor: pointer;
+        }
+
+        .nav-e-item button:hover{
+            background: linear-gradient(224deg, #0096FF 0%, #0048FF 100%);
+        }
+    }
+}
+
+@media screen and (max-width: 855px){
+    .nav {
+        padding: 20px 30px;
+
+        .nav-links {
+            gap: 50px;
+        }
+
+        .nav-end {
+            gap: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .nav {
+        padding: 20px 20px;
+
+        .nav-links {
+            gap: 30px;
+        }
+
+        .nav-end {
+            gap: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px){
+    .nav {
+        padding: 20px 10px;
+
+        .logo{
+            margin-right: 30px;
+        }
+
+        .nav-links {
+            gap: 20px;
+        }
+
+        .nav-end {
+            gap: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .nav {
+        padding: 20px 10px;
+
+        .logo{
+            margin-right: 20px;
+        }
+
+        .ham{
+            display: block;
+            cursor: pointer;
+        }
+
+        .nav-links {
+            display: none;
+        }
+
+        .nav-end {
+            gap: 10px;
+
+            .nav-e-item{
+                font-size: 10px;
+            }
+
+            .nav-e-item button{
+                font-size: 10px;
+                padding: 5px 15px;
+            }
+        }
+    }
+}
